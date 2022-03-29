@@ -33,7 +33,7 @@ So I open again the script and see that's another variable in the form:
 `request.form['isAdmin'] == "True"`
 
 Then I use Zap and send an HTTP POST after setting the parameter isAdmin to True
-![img_name](/assets/img/UTCTF_2022/loginasadmin_pt2_d.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/loginasadmin_pt3_d.png){: .image-50 }
 
 and now I can see the Flag: `utflag{omg_why_not_upd8_pwd!?!}`
 
