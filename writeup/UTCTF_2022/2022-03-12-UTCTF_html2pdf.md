@@ -30,17 +30,17 @@ and looking at the bottom I see:
 
 `Rendered by HTML2PDF`: HTML2PDF as the title of the challenge, a glue?
 
-The clue leads me to make some search fon the web and I find:
+The clue leads me to make some search on the web and I find:
 
 ![img_name](/assets/img/UTCTF_2022/html2pdf_d.png){: .image-50 }
 
 
-Good! And following the second web link:
+Interessant! And following the second web link:
 
 
 ![img_name](/assets/img/UTCTF_2022/html2pdf_e.png){: .image-50 }
 
-Very Good! let's try a simple script:
+Very interessant! Let's try a simple script:
 
 ```html
 <h1 id=rd>HA HA HA</h1>
@@ -85,13 +85,13 @@ and I get:
 I can see the  `hash of WeakPasswordAdmin’s password`
 
 
-I try to use John to crack the password:
+I try to use `John the Ripper` for cracking the password:
 
 ![img_name](/assets/img/UTCTF_2022/html2pdf_m.png){: .image-50 }
 
 “sunshine” is the password!
 
-So afte Log in with those credentials I get the flag:
+So after log in with those credentials I get the flag:
 
 ![img_name](/assets/img/UTCTF_2022/html2pdf_n.png){: .image-50 }
 
