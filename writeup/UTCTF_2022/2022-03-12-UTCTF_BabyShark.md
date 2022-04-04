@@ -10,7 +10,7 @@ head_ctf_categories:
 
 ## Baby Shark
 
-![img_name](/assets/img/UTCTF_2022/babyshark.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/babyshark.png)
 
 
 We are given a pcap file.
@@ -21,14 +21,14 @@ I open it with Wireshark. The text of the challenge give me a clue:
 
 The clue leads me to search for HTTP Traffic.
 
-![img_name](/assets/img/UTCTF_2022/wireshark_babyshark_a.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/wireshark_babyshark_a.png)
 
 I see a GET Request of flag.png
 
 So I can go to `File -> Export Objects -> HTTP`
 
-![img_name](/assets/img/UTCTF_2022/wireshark_babyshark_b.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/wireshark_babyshark_b.png)
 
 and save the file flag.png:
 
-![img_name](/assets/img/UTCTF_2022/wireshark_babyshark_c.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/wireshark_babyshark_c.png)

@@ -10,7 +10,7 @@ head_ctf_categories:
 
 ## Baby Shark 2
 
-![img_name](/assets/img/UTCTF_2022/babyshark2.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/babyshark2.png)
 
 
 We are given a pcap file.
@@ -21,10 +21,10 @@ I open it with Wireshark. The text of the challenge give me a clue:
 
 The clue leads me to search for FTP Traffic.
 
-![img_name](/assets/img/UTCTF_2022/wireshark_babyshark2_a.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/wireshark_babyshark2_a.png)
 
 I see a FTP Packet `Request: PASS utflag{sharkbait_hoo_ha_ha}`
 
-![img_name](/assets/img/UTCTF_2022/wireshark_babyshark2_b.png){: .image-50 }
+![img_name](/assets/img/UTCTF_2022/wireshark_babyshark2_b.png)
 
 So the flag is  `utflag{sharkbait_hoo_ha_ha}`
